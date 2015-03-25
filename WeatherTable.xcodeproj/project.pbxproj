@@ -13,21 +13,10 @@
 		AADD66471AC2C33D00995813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADD66451AC2C33D00995813 /* Main.storyboard */; };
 		AADD66491AC2C33D00995813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD66481AC2C33D00995813 /* Images.xcassets */; };
 		AADD664C1AC2C33D00995813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADD664A1AC2C33D00995813 /* LaunchScreen.xib */; };
-		AADD66581AC2C33D00995813 /* WeatherTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD66571AC2C33D00995813 /* WeatherTableTests.m */; };
 		AADD66631AC2C43D00995813 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD66621AC2C43D00995813 /* CustomCell.m */; };
 		AADD66661AC2C8FD00995813 /* WSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD66651AC2C8FD00995813 /* WSHelper.m */; };
 		AADD666A1AC2CB7100995813 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = AADD66691AC2CB7100995813 /* Weather.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AADD66521AC2C33D00995813 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AADD66301AC2C33D00995813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AADD66371AC2C33D00995813;
-			remoteInfo = WeatherTable;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AADD66381AC2C33D00995813 /* WeatherTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,9 +29,6 @@
 		AADD66461AC2C33D00995813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AADD66481AC2C33D00995813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AADD664B1AC2C33D00995813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AADD66511AC2C33D00995813 /* WeatherTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADD66561AC2C33D00995813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AADD66571AC2C33D00995813 /* WeatherTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTableTests.m; sourceTree = "<group>"; };
 		AADD66611AC2C43D00995813 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		AADD66621AC2C43D00995813 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		AADD66641AC2C8FD00995813 /* WSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHelper.h; sourceTree = "<group>"; };
@@ -59,13 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD664E1AC2C33D00995813 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				AADD663A1AC2C33D00995813 /* WeatherTable */,
-				AADD66541AC2C33D00995813 /* WeatherTableTests */,
 				AADD66391AC2C33D00995813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				AADD66381AC2C33D00995813 /* WeatherTable.app */,
-				AADD66511AC2C33D00995813 /* WeatherTableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,23 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AADD66541AC2C33D00995813 /* WeatherTableTests */ = {
-			isa = PBXGroup;
-			children = (
-				AADD66571AC2C33D00995813 /* WeatherTableTests.m */,
-				AADD66551AC2C33D00995813 /* Supporting Files */,
-			);
-			path = WeatherTableTests;
-			sourceTree = "<group>";
-		};
-		AADD66551AC2C33D00995813 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AADD66561AC2C33D00995813 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,24 +114,6 @@
 			productReference = AADD66381AC2C33D00995813 /* WeatherTable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AADD66501AC2C33D00995813 /* WeatherTableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AADD665E1AC2C33D00995813 /* Build configuration list for PBXNativeTarget "WeatherTableTests" */;
-			buildPhases = (
-				AADD664D1AC2C33D00995813 /* Sources */,
-				AADD664E1AC2C33D00995813 /* Frameworks */,
-				AADD664F1AC2C33D00995813 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AADD66531AC2C33D00995813 /* PBXTargetDependency */,
-			);
-			name = WeatherTableTests;
-			productName = WeatherTableTests;
-			productReference = AADD66511AC2C33D00995813 /* WeatherTableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,10 +125,6 @@
 				TargetAttributes = {
 					AADD66371AC2C33D00995813 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					AADD66501AC2C33D00995813 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = AADD66371AC2C33D00995813;
 					};
 				};
 			};
@@ -204,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				AADD66371AC2C33D00995813 /* WeatherTable */,
-				AADD66501AC2C33D00995813 /* WeatherTableTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,13 +154,6 @@
 				AADD66471AC2C33D00995813 /* Main.storyboard in Resources */,
 				AADD664C1AC2C33D00995813 /* LaunchScreen.xib in Resources */,
 				AADD66491AC2C33D00995813 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AADD664F1AC2C33D00995813 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,23 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD664D1AC2C33D00995813 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AADD66581AC2C33D00995813 /* WeatherTableTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AADD66531AC2C33D00995813 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AADD66371AC2C33D00995813 /* WeatherTable */;
-			targetProxy = AADD66521AC2C33D00995813 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AADD66451AC2C33D00995813 /* Main.storyboard */ = {
@@ -377,40 +291,6 @@
 			};
 			name = Release;
 		};
-		AADD665F1AC2C33D00995813 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WeatherTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherTable.app/WeatherTable";
-			};
-			name = Debug;
-		};
-		AADD66601AC2C33D00995813 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WeatherTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherTable.app/WeatherTable";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,14 +310,7 @@
 				AADD665D1AC2C33D00995813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		AADD665E1AC2C33D00995813 /* Build configuration list for PBXNativeTarget "WeatherTableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AADD665F1AC2C33D00995813 /* Debug */,
-				AADD66601AC2C33D00995813 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
